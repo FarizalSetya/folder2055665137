@@ -63,16 +63,16 @@ $splitLagiver = explode('"', $splitver[1]);
 $judulnya = $splitLagiver[0];
 
 $pesan = $judulnya."\n".$linknya;
-$token = "1005291650:AAGv3Sn1CLmcdX86tk0ps34gZItLG-l68bA";
+$token = "1005291650:AAE686RrQZyN0C3785EgcksDpXp9UnB269U";
 $chatid = "@eztekno";
 sendMessage($chatid, $pesan, $token);
 //Batas konfigurasi telegram
 
-$consumerKey    = '3WFtexcaLSiNyTg2bfhR3AphA';
-$consumerSecret = 'vVfA9muOvuADxXC76eFyolym6iGvMYYFZKOg7nmJvslMWleZnG';
-$oAuthToken     = '1570770624-K5QsWHysIRNgi9NvxJLh8bLNl2aMYREOgnWR5sE';
-$oAuthSecret    = 'DazJDWJBWtY6UhbxtUWxuSKBWxyFnugluuYS0LmVYjhq4'; 
-require_once('twitteroauth/twitteroauth.php');
+$consumerKey    = 'USeZcpqcTAE2ABAN5RiBmcBih';
+$consumerSecret = 'Z7jxOL4FMzcj7jKLzu37boP3LTZZ8zDDET0wFkdVikvC58U1t8';
+$oAuthToken     = '1570770624-0Fsxxaa0NQbn1CyVbN4YdK5qoxZmQSqATRHD9Mh';
+$oAuthSecret    = 'r26tcA093LBHTJqn0Jayb1TQTQiYqXZu0BqzkqHADtQ3H'; 
+require_once('twitteroauth.php');
 $tweet = new TwitterOAuth($consumerKey, $consumerSecret, $oAuthToken, $oAuthSecret);
 //Batas konfigurasi twitter
 
